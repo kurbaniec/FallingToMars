@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/LEGO/Scenes/LEGO Tutorial.unity
+    guid: c117ceea613454843a1d1c28c25d7a94
+  - enabled: 0
+    path: Assets/LEGO/Scenes/Menu Intro.unity
+    guid: 77504b30d92956e4ab45b9e740f2d454
+  - enabled: 0
+    path: Assets/LEGO/Scenes/Menu Win.unity
+    guid: 05cfb1c697d1a4d22b5edccf653ebd94
+  - enabled: 0
+    path: Assets/LEGO/Scenes/Menu Lose.unity
+    guid: 23bd42193fd3048b7b6f4dedf8f3317a
+  - enabled: 0
+    path: Assets/LEGO/Scenes/Level 2.unity
+    guid: c0d955a5654aed44ca87084313a94ce5
+  - enabled: 1
+    path: Assets/Falling to Mars/Scenes/MainMenu.unity
+    guid: 9e275d75db0d3954c90b9f8cb03c2fe0
+  - enabled: 0
+    path: Assets/Falling to Mars/Scenes/Falling to Mars Demo Level.unity
+    guid: 83fa93e29d2ee554f95f56fb1bb3a451
+  - enabled: 0
+    path: Assets/Falling to Mars/Scenes/Galaxy Falling to Mars.unity
+    guid: 9d0b230da3b6200469218236d5cd744b
+  - enabled: 1
+    path: Assets/Falling to Mars/Scenes/Falling to Mars Level.unity
+    guid: 56cb23c935898824893b1d94ad149896
+  - enabled: 1
+    path: Assets/Falling to Mars/Scenes/GameOver.unity
+    guid: cea4b9c38cb75f7478dddd7a35f80ad9
+  m_configObjects: {}

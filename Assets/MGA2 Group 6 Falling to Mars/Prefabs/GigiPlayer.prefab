@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &274266370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305761261324365491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: f5b362e420a284342ad805f017830489,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 615195736350733564}
+        m_TargetAssemblyTypeName: Unity.LEGO.Minifig.GigisMinifigController, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: d724e821-5721-49df-9d19-ac071a52a32b
+    m_ActionName: Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 615195736350733564}
+        m_TargetAssemblyTypeName: Unity.LEGO.Minifig.GigisMinifigController, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: fc6d1ff5-49fd-48fa-9ed3-fb0bdb20251a
+    m_ActionName: Player/Jump[/Keyboard/space]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &615195736350733564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305761261324365491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33123cfaadc55249865cbce176e82f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxForwardSpeed: 12
+  maxBackwardSpeed: 6
+  acceleration: 40
+  maxRotateSpeed: 450
+  rotateAcceleration: 500
+  jumpSpeed: 20
+  gravity: 40
+  stepAudioClips: []
+  jumpAudioClip: {fileID: 8300000, guid: 542490ca55814441981ef88f5d1f2dc6, type: 3}
+  doubleJumpAudioClip: {fileID: 8300000, guid: 542490ca55814441981ef88f5d1f2dc6, type: 3}
+  landAudioClip: {fileID: 8300000, guid: a12caccc734354aa09f7d2a412925ac2, type: 3}
+  explodeAudioClip: {fileID: 8300000, guid: b9b607b06267c4394b07c19523c455f1, type: 3}
+  inputType: 1
+  inputEnabled: 1
+  maxJumpsInAir: 1
+  leftArmTip: {fileID: 6777095440703773141}
+  rightArmTip: {fileID: 1641112815252962905}
+  leftLegTip: {fileID: 2198897220437879717}
+  rightLegTip: {fileID: 2544555905103406993}
+  head: {fileID: 7369425335363578826}
+--- !u!1001 &7062409980407300475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 86.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930629352373313629, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161377473031187143, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078427627668221896, guid: 934668409d4904809a1489b29640e933,
+        type: 3}
+      propertyPath: m_Name
+      value: GigiPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3161377473031187143, guid: 934668409d4904809a1489b29640e933, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 934668409d4904809a1489b29640e933, type: 3}
+--- !u!1 &2305761261324365491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9078427627668221896, guid: 934668409d4904809a1489b29640e933,
+    type: 3}
+  m_PrefabInstance: {fileID: 7062409980407300475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6777095440703773141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4327866955609970862, guid: 934668409d4904809a1489b29640e933,
+    type: 3}
+  m_PrefabInstance: {fileID: 7062409980407300475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1641112815252962905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8414095316951220002, guid: 934668409d4904809a1489b29640e933,
+    type: 3}
+  m_PrefabInstance: {fileID: 7062409980407300475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7369425335363578826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 308440745491425969, guid: 934668409d4904809a1489b29640e933,
+    type: 3}
+  m_PrefabInstance: {fileID: 7062409980407300475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2198897220437879717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8973058501011237598, guid: 934668409d4904809a1489b29640e933,
+    type: 3}
+  m_PrefabInstance: {fileID: 7062409980407300475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2544555905103406993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4707014124550645482, guid: 934668409d4904809a1489b29640e933,
+    type: 3}
+  m_PrefabInstance: {fileID: 7062409980407300475}
+  m_PrefabAsset: {fileID: 0}
